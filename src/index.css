@@ -149,3 +149,96 @@ body {
   color: #4b5563;
   font-size: 14px;
 }
+
+.property-layout {
+  margin: 4px 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.property-toolbar {
+  margin-bottom: 16px;
+}
+
+.property-toolbar button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 新規登録・編集フォームを囲むカード */
+.property-form-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 360px;
+}
+
+.property-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.property-form input {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.property-form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.property-form-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background-color: #fff !important;
+  color: #374151 !important;
+  border: 1px solid #d1d5db !important;
+}
+
+.property-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.property-card-actions button {
+  padding: 6px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.danger-button {
+  color: #dc2626 !important;
+  border-color: #fca5a5 !important;
+}
