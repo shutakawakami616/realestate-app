@@ -6,6 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 このリポジトリは不動産関連アプリケーション（realestate-app）です。現時点ではプロジェクトの初期化段階であり、具体的な技術スタックやディレクトリ構成はまだ確立されていません。今後コードが追加された際は、このファイルにビルド・テスト・実行コマンドやアーキテクチャの概要を追記してください。
 
+## デプロイ情報
+
+- 本番URL: https://realestate-app-jade-xi.vercel.app
+- Supabaseプロジェクト名: realestate-app
+
 ## Git運用ルール
 
 - **コードを変更するたびに、必ず変更内容をコミットし、GitHubのリモートリポジトリ（`origin`）へプッシュすること。** 変更を作業ツリーに残したまま次のタスクに進まない。
